@@ -1,7 +1,7 @@
 {
   "name": "@lokal-dev/react-native-bugbubble",
   "version": "1.0.0",
-  "description": "In-app debugging tool for React Native development. Monitor network requests, WebSocket events, console logs, and analytics in real-time with a beautiful UI. Zero configuration, error-safe, and TypeScript support.",
+  "description": "React Native in-app debugging tool - Monitor network requests, WebSocket events, console logs, and analytics in real-time. Zero configuration, TypeScript support, draggable UI.",
   "main": "./lib/module/index.js",
   "types": "./lib/typescript/src/index.d.ts",
   "exports": {
@@ -13,23 +13,9 @@
     "./package.json": "./package.json"
   },
   "files": [
-    "src",
     "lib",
-    "android",
-    "ios",
-    "cpp",
-    "*.podspec",
-    "react-native.config.js",
-    "!ios/build",
-    "!android/build",
-    "!android/gradle",
-    "!android/gradlew",
-    "!android/gradlew.bat",
-    "!android/local.properties",
-    "!**/__tests__",
-    "!**/__fixtures__",
-    "!**/__mocks__",
-    "!**/.*"
+    "README.md",
+    "LICENSE"
   ],
   "scripts": {
     "example": "yarn workspace react-native-bugbubble-example",
@@ -40,23 +26,37 @@
   },
   "keywords": [
     "react-native",
+    "react-native-debugger",
+    "react-native-devtools",
+    "bugbubble",
     "debugger",
     "devtools",
     "debugging",
+    "network-monitor",
+    "network-debugger",
+    "websocket-debugger",
+    "analytics-debugger",
+    "console-debugger",
     "network",
     "websocket",
     "analytics",
     "console",
     "inspector",
     "monitoring",
+    "in-app-debugger",
+    "react-native-network",
     "ios",
-    "android"
+    "android",
+    "typescript"
   ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lokal-app/react-native-bugbubble.git"
   },
-  "author": "Shivangi <shivangi.gupta@getlokalapp.com>",
+  "author": {
+    "name": "Shivangi",
+    "email": "shivangi.gupta@getlokalapp.com"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/lokal-app/react-native-bugbubble/issues"

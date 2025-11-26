@@ -1,0 +1,49 @@
+# Source files (only lib should be published)
+src/
+example/
+docs/
+
+# Build artifacts
+lib/**/*.test.js
+lib/**/*.test.ts
+lib/**/*.spec.js
+lib/**/*.spec.ts
+
+# Development files
+.git/
+.gitignore
+.github/
+.vscode/
+.idea/
+*.log
+*.swp
+*.swo
+*~
+
+# Config files
+.eslintrc*
+eslint.config.*
+.prettierrc*
+.prettierignore
+babel.config.js
+tsconfig*.json
+.yarn/
+.yarnrc*
+
+# Dependencies
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test files
+**/__tests__/
+**/__fixtures__/
+**/__mocks__/
+**/*.test.*
+**/*.spec.*
+
+# CI/CD
+.github/
+

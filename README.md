@@ -1,6 +1,6 @@
-# BugBubble - React Native In-App DevTools
+# @lokal-dev/react-native-bugbubble - React Native In-App DevTools
 
-An in-app debugging tool for React Native development. Monitor network requests, WebSocket events, console logs, and analytics events in real-time with a draggable UI
+**@lokal-dev/react-native-bugbubble** is a powerful in-app debugging tool for React Native applications. Monitor network requests, WebSocket events, console logs, and analytics events in real-time with a beautiful, draggable UI. Perfect for debugging React Native apps without external tools.
 
 ## Supported Log Types
 
@@ -294,7 +294,7 @@ Check out the [example](./example) directory for a comprehensive demo of all fea
 
 ## Author
 
--  [Shivangi](shivangi.gupta@getlokalapp.com)
+- **Shivangi** - [shivangi.gupta@getlokalapp.com](mailto:shivangi.gupta@getlokalapp.com)
 
 ## License
 
